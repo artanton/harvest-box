@@ -5,11 +5,11 @@
 название команды - Dev Monsters.
 
 live page:
-https://georgiysergeev.github.io/group-3-final-project/
+https://georgiysergeev.github.io/harvest-box/
 
 
 Git:
-https://github.com/GeorgiySergeev/group-3-final-project
+https://github.com/GeorgiySergeev/harvest-box
 
 
 Команда:
