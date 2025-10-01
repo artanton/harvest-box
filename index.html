@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fresh Harvest Box</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    
+    <script type="module" crossorigin src="/group-3-final-project/assets/index-e99f6b1c.js"></script>
+    <link rel="stylesheet" href="/group-3-final-project/assets/index-d15e600a.css">
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+    
+  <div class="main-nav container">
+    <div class="logo">
+      <svg width="16" height="16" class="logo-icon">
+        <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-logo"></use>
+      </svg>
+
+      <a href="./index.html" class="logo link">fresh harvest box</a>
+    </div>
+
+    <!--Button hamburger-->
+    <button
+      type="button"
+      class="menu-toggle js-open-menu js-close-menu"
+      data-menu-button
+      aria-expanded="false"
+      aria-controls="menu-container"
+    >
+      <svg width="24" height="24" aria-label="Switch mobile menu">
+        <use class="icon-menu" href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-menu"></use>
+        <use
+          class="icon-cross"
+          href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-close"
+        ></use>
+      </svg>
+    </button>
+
+    <!--mobile menu-->
+    <div class="menu-container js-menu-container" data-menu id="menu-container">
+      <div class="navigation">
+        <nav class="site-nav">
+          <ul class="site-menu list">
+            <li class="item"><a href="#how-it-works" class="menu link js-link">How It Works</a></li>
+            <li class="item"><a href="#fruits" class="menu link js-link">Fruits</a></li>
+            <li class="item"><a href="#contacts" class="menu link js-link">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <button
+        type="button"
+        class="basket-btn-mobile js-open-modal"
+        data-modal="3"
+      >
+        <svg width="24" height="24" class="icon-basket-mobile">
+          <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-basket-menu"></use>
+        </svg>
+      </button>
+    </div>
+
+    <button type="button" class="basket-btn-desk js-open-modal" data-modal="3">
+      <svg width="24" height="24" class="icon-basket-desk">
+        <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-basket-menu"></use>
+      </svg>
+    </button>
+  </div>
+
+</header>
+
+<div class="go-top">▲</div>
+    <!-- main section -->
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-container container">
+  <h1 class="main-title">
+    fresh harvest box <br />
+    is your 0ne-stop place for a delicious fruit basket
+  </h1>
+  <div class="hero-img-wrapper">
+    <picture>
+      <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/main_hero_img_tabl@1x-7c352e54.webp 1x, /group-3-final-project/assets/main_hero_img_tabl@2x-a5abd02f.webp 2x" type="image/webp" />
+      <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/main_hero_img_tabl@1x-6ad53912.jpg 1x, /group-3-final-project/assets/main_hero_img_tabl@2x-9e3fab65.jpg 2x" type="image/jpg" />
+      <source media="(min-width: 320px)" srcset="/group-3-final-project/assets/hero_main_img_mob@1x-d338a19f.webp 1x, /group-3-final-project/assets/hero_main_img_mob@2x-60d8cde2.webp 2x" type="image/webp" />
+      <source media="(min-width: 320px)" srcset="/group-3-final-project/assets/hero_main_img_mob@1x-6a3b1870.jpg 1x, /group-3-final-project/assets/hero_main_img_mob@2x-98b51ee3.jpg 2x" type="image/jpg" />
+      <img src="/group-3-final-project/assets/hero_main_img_mob@1x-6a3b1870.jpg" alt="Girl with fruit" class="hero-main-img" />
+    </picture>
+    <a class="hero-link" href="#fruits">shop now</a>
+  </div>
+
+  <div class="blocks-wrapper">
+    <div class="text-block-wrap block">
+      <p class="main-hero-text">
+        Our expertly curated fruit baskets are made with the freshest, highest
+        quality fruits available. Whether you are looking for a healthy snack or
+        a gift for a loved one, Fresh Harvest Box has got you covered.
+      </p>
+      <div class="hero-blocks first-block">
+        <h3 class="hero-title first-block-title">Fruit</h3>
+        <div class="hero-img-thumb">
+          <picture>
+            <source media="(min-width: 320px)" srcset="/group-3-final-project/assets/watermelon_mob@1x-d757e397.webp 1x, /group-3-final-project/assets/watermelon_mob@2x-85800600.webp 2x" type="image/webp" />
+            <source media="(min-width: 320px)" srcset="/group-3-final-project/assets/watermelon_mob@1x-4863e754.png 1x, /group-3-final-project/assets/watermelon_mob@2x-1460813b.png 2x" type="image/png" />
+
+            <img src="/group-3-final-project/assets/watermelon_mob@1x-4863e754.png" alt="Watermelon" class="hero-img" />
+          </picture>
+
+          <p class="hero-block-text first-block-text">
+            Refreshing and juicy, watermelon is the perfect summer treat and a
+            great source of hydration
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="list-block-wrap block">
+      <ul class="hero-btn-list">
+        <li class="hero-btn-item">
+          <div class="hero-btn-links">
+            <h3 class="hero-text-title">&#35;organic</h3>
+          </div>
+        </li>
+        <li class="hero-btn-item">
+          <div class="hero-btn-links">
+            <h3 class="hero-text-title">&#35;products</h3>
+          </div>
+        </li>
+        <li class="hero-btn-item">
+          <div class="hero-btn-links">
+            <h3 class="hero-text-title">&#35;basket</h3>
+          </div>
+        </li>
+        <li class="hero-btn-item">
+          <div class="hero-btn-links">
+            <h3 class="hero-text-title">&#35;fruits</h3>
+          </div>
+        </li>
+      </ul>
+      <div class="hero-blocks second-block">
+        <h3 class="hero-title second-block-title">Fruit</h3>
+        <div class="hero-img-thumb">
+          <picture>
+            <source media="(min-width: 320px)" srcset="/group-3-final-project/assets/strawberry_basket_mob@1x-ed6b6ccf.webp 1x, /group-3-final-project/assets/strawberry_basket_mob@2x-9b66d24f.webp 2x" type="image/webp" />
+            <source media="(min-width: 320px)" srcset="/group-3-final-project/assets/strawberry_basket_mob@1x-ba0293aa.png 1x, /group-3-final-project/assets/strawberry_basket_mob@2x-a06257a2.png 2x" type="image/png" />
+            <img src="/group-3-final-project/assets/strawberry_basket_mob@1x-ba0293aa.png" alt="strawberry basket" class="hero-img" />
+          </picture>
+
+          <p class="hero-block-text second-block-text">
+            Sweet and juicy, strawberries are packed with vitamin C and
+            antioxidants, making them a delicious and healthy snack
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+
+      <section class="ruls" id="how-it-works">
+        <div class="container">
+  <h2 class="title-how-it">
+    TO ORDER YOUR FRUIT BASKET, SIMPLY FOlLOW THESE EASY STEPS
+  </h2>
+  <p class="descript-how-it">
+    Our baskets are assembled with care and delivered straight to your doorstep,
+    so you can enjoy the taste of fresh fruit without ever leaving your home.
+    Whether you're looking for a healthy snack or a thoughtful gift, our fruit
+    baskets are the perfect choice.
+  </p>
+  <ul class="list-how-it">
+    <li class="link-how-it">
+      <div class="card-how-it">
+        <div class="title-box-how-it">
+          <h3 class="title-card-how-it">First Step</h3>
+        </div>
+
+        <p class="descript-step-how-it">
+          Just choose the fruit you want to order by clicking on the checkboxes
+          next to it.
+        </p>
+      </div>
+    </li>
+    <li class="link-how-it">
+      <div class="card-how-it">
+        <div class="title-box-how-it">
+          <h3 class="title-card-how-it">Second Step</h3>
+        </div>
+
+        <p class="descript-step-how-it">
+          Click on the basket and fill out the form.
+        </p>
+      </div>
+    </li>
+    <li class="link-how-it">
+      <div class="card-how-it">
+        <div class="title-box-how-it">
+          <h3 class="title-card-how-it">Third Step</h3>
+        </div>
+
+        <p class="descript-step-how-it">
+          Sit back and relax! Your fresh fruit basket will be delivered.
+        </p>
+      </div>
+    </li>
+  </ul>
+
+  <div class="box-gif">
+    <video 
+      src="/group-3-final-project/assets/deck-gif-bf8f5a09.mp4"
+      class="gif-how-it"
+      alt="fruits"
+      width="860"
+      height="476"
+      muted="muted"
+      autoplay
+      loop
+    ></video>
+  </div>
+</div>
+
+      </section>
+
+      <section class="fruits" id="fruits">
+        <div class="container fruit-gallery">
+  <div class="fruits-decription">
+    <h2 class="fruits-title title">ORGANIC FRUITS</h2>
+    <p class="fruits-text">
+      Our organic fruits are hand-picked from local farms and delivered straight
+      to your doorstep, ensuring that you get the freshest and most nutritious
+      produce possible. We offer a wide selection of organic fruits grown
+      without the use of harmful pesticides or chemicals.
+    </p>
+  </div>
+
+  <div class="fruits-gallery">
+    <ul class="fruits-list list">
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Strawberry</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">100 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/strawberry-desk@1x-7004ca8a.webp 1x, /group-3-final-project/assets/strawberry-desk@2x-a1922537.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/strawberry-desk@1x-7d770bca.png 1x, /group-3-final-project/assets/strawberry-desk@2x-7d4d0aa8.png 2x" type="image/png" />
+
+              <!-- Tablet -->
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/strawberry-tab@1x-98e4440e.webp 1x, /group-3-final-project/assets/strawberry-tab@2x-75b02ed4.webp 2x" type="image/webp" />
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/strawberry-tab@1x-a8ee978d.png 1x, /group-3-final-project/assets/strawberry-tab@2x-f42c9525.png 2x" type="image/png" />
+
+              <!-- Phone -->
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/strawberry-mob@1x-6ddb3c5a.webp 1x, /group-3-final-project/assets/strawberry-mob@2x-0c75f516.webp 2x" type="image/webp" />
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/strawberry-mob@1x-d52bfe88.png 1x, /group-3-final-project/assets/strawberry-mob@2x-2410d81c.png 2x" type="image/png" />
+
+              <img src="./img/fruits-gallery/strawberry-mob@1x.png1x" alt="Strawberry" width="295" height="276"
+                loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </li>
+
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Banana</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">80 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/banana-desk@1x-7ae14e42.webp 1x, /group-3-final-project/assets/banana-desk@2x-03aea571.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/banana-desk@1x-68498b96.png 1x, /group-3-final-project/assets/banana-desk@2x-a41720b1.png 2x" type="image/png" />
+
+              <!-- Tablet -->
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/banana-tab@1x-88878f61.webp 1x, /group-3-final-project/assets/banana-tab@2x-f520a12f.webp 2x" type="image/webp" />
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/banana-tab@1x-f13f33e1.png 1x, /group-3-final-project/assets/banana-tab@2x-d0984445.png 2x" type="image/png" />
+
+              <!-- Phone -->
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/banana-mob@1x-28271943.webp 1x, /group-3-final-project/assets/banana-mob@2x-eb8bb0cc.webp 2x" type="image/webp" />
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/banana-mob@1x-dbdfd413.png 1x, /group-3-final-project/assets/banana-mob@2x-4b2e0ee2.png 2x" type="image/png" />
+
+              <img src="./img/fruits-gallery/banana-mob@1x.png1x" alt="Banana" width="295" height="276"
+                loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </li>
+
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Watermelon</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">40 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/melon-desk@1x-c2cdb092.webp 1x, /group-3-final-project/assets/melon-desk@2x-68cb8152.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/melon-desk@1x-507e5c9d.png 1x, /group-3-final-project/assets/melon-desk@2x-c2817d6f.png 2x" type="image/png" />
+
+              <!-- Tablet -->
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/melon-tab@1x-d3ecdf0a.webp 1x, /group-3-final-project/assets/melon-tab@2x-15a6bb32.webp 2x" type="image/webp" />
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/melon-tab@1x-2f4aeebd.png 1x, /group-3-final-project/assets/melon-tab@2x-8107ea3d.png 2x" type="image/png" />
+
+              <!-- Phone -->
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/melon-mob@1x-f062fa43.webp 1x, /group-3-final-project/assets/melon-mob@2x-c0d97aa8.webp 2x" type="image/webp" />
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/melon-mob@1x-04473c6c.png 1x, /group-3-final-project/assets/melon-mob@2x-dca13547.png 2x" type="image/png" />
+
+              <img src="./img/fruits-gallery/melon-mob@1x.png1x" alt="Melon" width="295" height="276" loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </li>
+
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Lime</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">60 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/lime-desk@1x-3d92dd2c.webp 1x, /group-3-final-project/assets/lime-desk@2x-c7a2b161.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/lime-desk@1x-eabdb5d9.png 1x, /group-3-final-project/assets/lime-desk@2x-bc6a894d.png 2x" type="image/png" />
+
+              <!-- Tablet -->
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/lime-tab@1x-e629a1f7.webp 1x, /group-3-final-project/assets/lime-tab@2x-9c303862.webp 2x" type="image/webp" />
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/lime-tab@1x-6eca0dbd.png 1x, /group-3-final-project/assets/lime-tab@2x-70869916.png 2x" type="image/png" />
+
+              <!-- Phone -->
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/lime-mob@1x-bcdd3044.webp 1x, /group-3-final-project/assets/lime-mob@2x-e41f1ead.webp 2x" type="image/webp" />
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/lime-mob@1x-d3c47be1.png 1x, /group-3-final-project/assets/lime-mob@2x-37dd3fab.png 2x" type="image/png" />
+
+              <img src="./img/fruits-gallery/lime-mob@1x.png1x" alt="lime" width="295" height="276" loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </li>
+
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Apple</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">50 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/apple-desk@1x-93051c21.webp 1x, /group-3-final-project/assets/apple-desk@2x-393b9bc3.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/apple-desk@1x-35903933.png 1x, /group-3-final-project/assets/apple-desk@2x-731fd278.png 2x" type="image/png" />
+
+              <!-- Tablet -->
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/apple-tab@1x-c0139bd5.webp 1x, /group-3-final-project/assets/apple-tab@2x-b6d5918b.webp 2x" type="image/webp" />
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/apple-tab@1x-ec05778a.png 1x, /group-3-final-project/assets/apple-tab@2x-bf8e60c1.png 2x" type="image/png" />
+
+              <!-- Phone -->
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/apple-mob@1x-05ccc139.webp 1x, /group-3-final-project/assets/apple-mob@2x-2a1e635b.webp 2x" type="image/webp" />
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/apple-mob@1x-59cc41d3.png 1x, /group-3-final-project/assets/apple-mob@2x-5e7c53d4.png 2x" type="image/png" />
+
+              <img src="./img/fruits-gallery/apple-mob@1x.png1x" alt="Apple" width="295" height="276" loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </li>
+
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Peach</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">80 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/peach-desk@1x-0a4646aa.webp 1x, /group-3-final-project/assets/peach-desk@2x-6a6f2dee.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/peach-desk@1x-943c1d12.png 1x, /group-3-final-project/assets/peach-desk@2x-c738bfdb.png 2x" type="image/png" />
+
+              <!-- Tablet -->
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/peach-desk@1x-0a4646aa.webp 1x, /group-3-final-project/assets/peach-desk@2x-6a6f2dee.webp 2x" type="image/webp" />
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/peach-desk@1x-943c1d12.png 1x, /group-3-final-project/assets/peach-desk@2x-c738bfdb.png 2x" type="image/png" />
+
+              <!-- Phone -->
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/peach-mob@1x-cc11957b.webp 1x, /group-3-final-project/assets/peach-mob@2x-a4a8237d.webp 2x" type="image/webp" />
+              <source media="(max-width:767px)" srcset="/group-3-final-project/assets/peach-mob@1x-10d42e9f.png 1x, /group-3-final-project/assets/peach-mob@2x-1b0116d5.png 2x" type="image/png" />
+
+              <img src="./img/fruits-gallery/peach-mob@1x.png1x" alt="Peach" width="295" height="276" loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </li>
+
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Plums</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">40 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/plums-desk@1x-465b34d5.webp 1x, /group-3-final-project/assets/plums-desk@2x-c17a2a63.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/plums-desk@1x-518e3445.png 1x, /group-3-final-project/assets/plums-desk@2x-2f689e40.png 2x" type="image/png" />
+
+              <!-- Tablet -->
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/plums-tab@1x-453f9652.webp 1x, /group-3-final-project/assets/plums-tab@2x-a6ae0490.webp 2x" type="image/webp" />
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/plums-tab@1x-01c282b5.png 1x, /group-3-final-project/assets/plums-tab@2x-1d63a1ac.png 2x" type="image/png" />
+
+              <img src="./img/fruits-gallery/plums-mob@1x.png 1x" alt="Plums" width="295" height="276" loading="lazy" />
+
+            </picture>
+          </div>
+        </div>
+      </li>
+
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Orange</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">60 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/orange-desk@1x-00bd057a.webp 1x, /group-3-final-project/assets/orange-desk@2x-49fae8b4.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/orange-desk@1x-5cf401d8.png 1x, /group-3-final-project/assets/orange-desk@2x-b2d398c8.png 2x" type="image/png" />
+
+              <!-- Tablet -->
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/orange-desk@1x-00bd057a.webp 1x, /group-3-final-project/assets/orange-desk@2x-49fae8b4.webp 2x" type="image/webp" />
+              <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/orange-desk@1x-5cf401d8.png 1x, /group-3-final-project/assets/orange-desk@2x-b2d398c8.png 2x" type="image/png" />
+
+              <img src="/group-3-final-project/assets/orange-desk@1x-5cf401d8.png" alt="Orange" width="295" height="276"
+                loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </li>
+
+      <li class="fruits-item">
+        <div class="fruits-link link">
+          <h3 class="fruits-label">Kiwi</h3>
+          <p class="fruits-type">Plant</p>
+          <p class="fruits-price">90 UAH / kg</p>
+          <div class="fruits-thumb">
+            <picture>
+              <!-- Desktop -->
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/kiwi-desk@1x-ba4c4e89.webp 1x, /group-3-final-project/assets/kiwi-desk@2x-425fb70c.webp 2x" type="image/webp" />
+              <source media="(min-width: 1280px)" srcset="/group-3-final-project/assets/kiwi-desk@1x-44dc97ba.png 1x, /group-3-final-project/assets/kiwi-desk@2x-7605ad1c.png 2x" type="image/png" />
+
+              <img src="/group-3-final-project/assets/kiwi-desk@1x-44dc97ba.png" alt="Kiwi" width="295" height="276" loading="lazy" />
+            </picture>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <button class="fruits-order-btn js-open-modal" data-modal="1" type="button">
+    <svg class="fruits-order-icon" height="14" width="14">
+      <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-arrow"></use>
+    </svg>
+    order
+  </button>
+</div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container container-contacs">
+  <h2 class="primary-text-contacs">FRESH HARVEST BOX HAS GOT YOU COVERED</h2>
+
+  <ul class="list-img-contacs">
+    <li class="item">
+      <picture>
+        <source
+          media="(min-width:1280px)"
+          srcset="/group-3-final-project/assets/meloun_desk@1x-1e0c8997.png 1x, /group-3-final-project/assets/meloun_desk@2x-cf9c2eff.png 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="/group-3-final-project/assets/meloun_tab@1x-69b62633.png 1x, /group-3-final-project/assets/meloun_tab@2x-6bc36fc0.png 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(max-width:767px)"
+          srcset="/group-3-final-project/assets/meloun_mob@1x-496a156e.png 1x, /group-3-final-project/assets/meloun_mob@2x-104c5aaf.png 2x"
+          type="image/jpg"
+        />
+        <img src="/group-3-final-project/assets/meloun_mob@1x-496a156e.png" alt="Melon" />
+      </picture>
+    </li>
+
+    <li class="item">
+      <picture>
+        <source
+          media="(min-width:1280px)"
+          srcset="/group-3-final-project/assets/blueberry_desk@1x-04bf4990.png 1x, /group-3-final-project/assets/blueberry_desk@2x-b5ccbb26.png 2x"
+          type="image/jpg"
+        />
+        <source
+          media="(min-width:768px)"
+          srcset="/group-3-final-project/assets/blueberry_tab@1x-15b4c10c.png 1x, /group-3-final-project/assets/blueberry_tab@2x-ef2789a0.png 2x"
+          type="image/jpg"
+        />
+        <img src="/group-3-final-project/assets/blueberry_desk@1x-04bf4990.png" alt="blueberry" />
+      </picture>
+    </li>
+  </ul>
+
+  <div class="form-field">
+    <p class="text-contacs">
+      Our boxes are packed with delicious, nutritious fruits and vegetables,
+      perfect for anyone looking to eat healthier or support local farmers.
+      Order your box today and start enjoying the best that nature has to offer!
+    </p>
+    <form class="form-contacs thank-form">
+      <label>
+        <input
+          type="email"
+          name="email-client"
+          class="sub-input"
+          placeholder="Enter email..."
+          required
+        />
+      </label>
+
+      <button type="submit" class="btn-sub contacts-button">Send</button>
+    </form>
+  </div>
+</div>
+
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <h2 hidden class="footer-title">footer</h2>
+<div class="container footer-cover footer-split">
+  <div class="left-side">
+    <div class="label-logo">
+      <picture>
+        <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/image_768@1x-d5d6fe41.webp 1x, /group-3-final-project/assets/image_1536@2x-bfbf61ad.webp 2x" type="image/webp" />
+        <source media="(min-width: 768px)" srcset="/group-3-final-project/assets/image_768@1x-7ae0c1d1.jpg 1x, /group-3-final-project/assets/image_1536@2x-8091992e.jpg 2x" type="image/jpg" />
+        <source media="(min-width: 320px)" srcset="/group-3-final-project/assets/image_375@1x-075c6b71.webp 1x, /group-3-final-project/assets/image_750@2x-a4094419.webp 2x" type="image/webp" />
+        <source media="(min-width: 320px)" srcset="/group-3-final-project/assets/image_375@1x-d2f79b69.jpg 1x, /group-3-final-project/assets/image_750@2x-4772fa6a.jpg 2x" type="image/jpg" />
+        <img class="footer-img" src="/group-3-final-project/assets/image_375@1x-d2f79b69.jpg" alt="a woman with bananas" />
+      </picture>
+      <div class="footer-logo-text">
+        <svg class="footer-logo" width="16" height="16">
+          <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-logo"></use>
+        </svg>
+        <a href="./index.html" class="logo-text link">fresh harvest box</a>
+      </div>
+    </div>
+    <ul class="footer-anchor">
+      <li class="anchor-item">
+        <a class="anchor-item-text" href="#how-it-works">How It Works</a>
+      </li>
+      <li class="anchor-item">
+        <a class="anchor-item-text" href="#fruits">Fruits</a>
+      </li>
+      <li class="anchor-item">
+        <a class="anchor-item-text" href="#contacts">Contacts</a>
+      </li>
+    </ul>
+  </div>
+  <div class="right-side">
+    <ul class="social-media list">
+      <li class="social-icon">
+        <a class="link icon-symbol" href="https://www.facebook.com/" target="_blank" rel="noopener no-referrer"
+          aria-label="facebook icon"><svg class="icon" width="24" height="24">
+            <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-facebook"></use>
+          </svg></a>
+      </li>
+      <li class="social-icon">
+        <a class="link icon-symbol" href="https://www.instagram.com/" target="_blank" rel="noopener no-referrer"
+          aria-label="instagram icon"><svg class="icon" width="24" height="24">
+            <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-instagram"></use>
+          </svg></a>
+      </li>
+      <li class="social-icon">
+        <a class="link icon-symbol" href="https://www.youtube.com/" target="_blank" rel="noopener no-referrer"
+          aria-label="youtube icon"><svg class="icon" width="24" height="24">
+            <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-youtube"></use>
+          </svg></a>
+      </li>
+    </ul>
+    <address class="adr-phone-list">
+      <ul class="footer-contacts list">
+        <li>
+          <a class="tel" href="tel:+380684439426">+380 (68) 443-94-26</a>
+        </li>
+        <li>
+          <a class="adr" href="https://goo.gl/maps/fQMtKPrZ9VkFTJiz8" target="_blank" rel="noopener no-referrer"
+            aria-label="googlemaps address">1678 S. Pioneer Road <br />
+            Salt Lake City UT <br />84104</a>
+        </li>
+      </ul>
+    </address>
+  </div>
+</div>
+    </footer>
+
+    <!-- modal windows -->
+   
+    <div class="order-modal modal" data-modal="1">
+  <h2 class="order-modal-title">Your Order</h2>
+
+  <!--   close order button  -->
+  <button class="order-close-btn button js-modal-close" type="button">
+    <svg class="order-close-icon">
+      <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-close-btn"></use>
+    </svg>
+  </button>
+
+  <form class="order-form" name="order-form">
+    <div class="order-cards">
+      <ul class="order-list">
+        <li class="order-item">
+          <div class="order-block">
+            <label
+              class="order-choise-strawberry"
+              for="order-choise-strawberry"
+            >
+              <h3 class="order-item-name">Strawberry Basket</h3>
+              <p class="order-item-type">Plant</p>
+
+              <input
+                class="strawberry-checkbox"
+                type="checkbox"
+                id="order-choise-strawberry"
+              />
+              <svg class="strawberry-checkbox-icon" width="8" height="8">
+                <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-pick"></use>
+              </svg>
+              <div class="order-strawberry-image">
+                <picture>
+                  <!-- Desktop -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="/group-3-final-project/assets/strawberry-basket-desk@1x-962c5c7c.png 1x, /group-3-final-project/assets/strawberry-basket-desk@2x-6f40047d.png 2x"
+                    type="image/png"
+                  />
+
+                  <!-- Tablet -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="/group-3-final-project/assets/strawberry-basket-tab@1x-8604eab9.png 1x, /group-3-final-project/assets/strawberry-basket-tab@2x-e63d1f2b.png 2x"
+                    type="image/png"
+                  />
+
+                  <!-- Phone -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="/group-3-final-project/assets/strawberry-basket-mob@1x-ce74d3bb.png 1x, /group-3-final-project/assets/strawberry-basket-mob@2x-058dce0b.png 2x"
+                    type="image/png"
+                  />
+                  <img
+                    src="/group-3-final-project/assets/strawberry-basket-desk@2x-6f40047d.png"
+                    alt="Strawberry basket"
+                    width="173"
+                    height="196"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+            </label>
+          </div>
+        </li>
+
+        <li class="order-item">
+          <div class="order-block">
+            <label class="order-choise-apple" for="order-choise-apple">
+              <h3 class="order-item-name">Apple Basket</h3>
+              <p class="order-item-type">Plant</p>
+              <input
+                class="apple-checkbox"
+                type="checkbox"
+                id="order-choise-apple"
+              />
+              <svg class="apple-checkbox-icon" width="8" height="8">
+                <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-pick"></use>
+              </svg>
+              <div class="order-image">
+                <picture>
+                  <!-- Desktop -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="/group-3-final-project/assets/apple-basket-desk@1x-69cbd681.png 1x, /group-3-final-project/assets/apple-basket-desk@2x-995d3c97.png 2x"
+                    type="image/png"
+                  />
+
+                  <!-- Tablet -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="/group-3-final-project/assets/apple-basket-tab@1x-36490095.png 1x, /group-3-final-project/assets/apple-basket-tab@2x-67f5f5ce.png 2x"
+                    type="image/png"
+                  />
+
+                  <!-- Phone -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="/group-3-final-project/assets/apple-basket-mob@1x-8cec34b9.png 1x, /group-3-final-project/assets/apple-basket-mob@2x-d5f21259.png 2x"
+                    type="image/png"
+                  />
+                  <img
+                    src="/group-3-final-project/assets/apple-basket-desk@2x-995d3c97.png"
+                    alt="Apple basket"
+                    width="229"
+                    height="196"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+            </label>
+          </div>
+        </li>
+
+        <li class="order-item">
+          <div class="order-block">
+            <label class="order-choise-fruit" for="order-choise-fruit">
+              <h3 class="order-item-name">Fruits Basket</h3>
+              <p class="order-item-type">Plant</p>
+              <input
+                class="fruit-checkbox"
+                type="checkbox"
+                id="order-choise-fruit"
+              />
+              <svg class="fruit-checkbox-icon" width="8" height="8">
+                <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-pick"></use>
+              </svg>
+              <div class="order-image">
+                <picture>
+                  <!-- Desktop -->
+                  <source
+                    media="(min-width: 1280px)"
+                    srcset="/group-3-final-project/assets/fruits-basket-desk@1x-505476ae.png 1x, /group-3-final-project/assets/fruits-basket-desk@2x-4e73102e.png 2x"
+                    type="image/png"
+                  />
+
+                  <!-- Tablet -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="/group-3-final-project/assets/fruits-basket-tab@1x-326a1a08.png 1x, /group-3-final-project/assets/fruits-basket-tab@2x-abf3b22c.png 2x"
+                    type="image/png"
+                  />
+
+                  <!-- Phone -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="/group-3-final-project/assets/fruits-basket-mob@1x-c8474d76.png 1x, /group-3-final-project/assets/fruits-basket-mob@2x-d6fbdf20.png 2x"
+                    type="image/png"
+                  />
+                  <img
+                    src="/group-3-final-project/assets/fruits-basket-desk@2x-4e73102e.png"
+                    alt="Fruits basket"
+                    width="229"
+                    height="196"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="client-data">
+      <label class="contact-label visually-hidden" for="user-name">Name</label>
+      <input
+        class="input-modal-field"
+        type="text"
+        name="user-name"
+        id="user-name"
+        required
+        pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+        placeholder="Enter full name..."
+      />
+
+      <label class="contact-label visually-hidden" for="user-email"
+        >Email</label
+      >
+      <input
+        class="input-modal-field"
+        type="email"
+        name="user-email"
+        id="user-email"
+        required
+        placeholder="Enter email..."
+      />
+
+      <label class="contact-label visually-hidden" for="card-nomber"
+        >Card number</label
+      >
+      <input
+        class="input-modal-field"
+        type="text"
+        pattern="^[0-9]{5,45}$"
+        title="Your card number must be between 5 to 45 digitals."
+        required
+        name="card-nomber"
+        id="card-nomber"
+        placeholder="Enter card..."
+      />
+
+      <label class="contact-label visually-hidden" for="comment">Comment</label>
+      <textarea
+        class="comment-field"
+        name="comment"
+        id="comment"
+        rows="8"
+        placeholder="Enter comments..."
+      ></textarea>
+
+      <button class="modal-send-btn button" type="submit">Send</button>
+    </div>
+  </form>
+</div>
+
+    <div class="thankyou-modal modal-thank-you">
+  <button class="thankyou-modal-close-btn close-btn" type="button">
+    <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M18 6 6 18M6 6l12 12"
+        stroke="#fff"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </button>
+  <img
+    class="strawberry-photo"
+    srcset="/group-3-final-project/assets/strawberry@1x-07dfc945.png 1x, /group-3-final-project/assets/strawberry@2x-07cdf2d8.png 2x"
+    src="/group-3-final-project/assets/strawberry@1x-07dfc945.png"
+    width="207"
+    height="176"
+    alt="Strawberry"
+  />
+  <h2 class="modal-thankyou-title">THANK YOU</h2>
+  <p class="modal-thankyou-subtitle">
+    Thank you for your order! Our team is preparing your box with fresh,
+    delicious fruits and vegetables, and we'll deliver it straight to your
+    doorstep. We appreciate your business and look forward to providing you with
+    the best possible experience!
+  </p>
+</div>
+
+    <div class="modal-basket modal" data-modal="3">
+
+    <button class="basket-close-btn js-modal-close" type="button">
+        <svg class="basket-close-icon">
+            <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-close-btn"></use>
+        </svg>
+    </button>
+    <h2 class="basket-title">basket</h2>
+    <div class="picture-box">
+        <picture class="basket">
+            <source srcset="/group-3-final-project/assets/basket_w@1x-6ab279e7.webp 1x, /group-3-final-project/assets/basket_w@2x-d8a2a886.webp 2x" type="image/webp" />
+            <source srcset="/group-3-final-project/assets/basket@1x-559571c0.jpg 1x, /group-3-final-project/assets/basket@2x-9a8a3d00.jpg 2x" type="image/jpg" />
+            <img src="/group-3-final-project/assets/basket@1x-559571c0.jpg" alt="empty basket" />
+        </picture>
+        <a class="add-btn js-modal-close" href="#fruits">
+            <svg class="add-svg" width="14" height="14">
+                <use href="/group-3-final-project/assets/symbol-defs-bfb235a6.svg#icon-arrow"></use>
+            </svg>
+        <span class="add-text">add fruits</span>    
+        </a>
+    </div>
+    <p class="modal-info">Your basket is empty. <span class="help-info"> Press the button to add items.</span></p>
+
+</div>
+
+
+    <div class="overlay js-overlay-modal"></div>
+    <!-- JS -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    
+    
+    
+    
+  </body>
+</html>
